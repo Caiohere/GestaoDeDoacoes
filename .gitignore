@@ -1,0 +1,29 @@
+# === Arquivos de Planejamento Locais ===
+plano.txt
+rascunho.txt
+*.txt
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Pastas de Dependências e Cache (caso fiquem na raiz) ===
+node_modules/
+__pycache__/
+.venv/
+venv/
+.env
+
+# === Frontend Específicos ===
+dist/
+dist-ssr/
+npm-debug.log*
+
+# === Backend Específicos ===
+*.db
+*.sqlite3
+*.pyc
+
+# === IDEs e Editores ===
+.vscode/
+.idea/
